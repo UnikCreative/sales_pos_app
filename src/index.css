@@ -11,3 +11,21 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.post-item {
+  font-weight: bolder;
+  cursor: pointer;
+ 
+}
+.post-item:hover {
+ background: rgb(7, 58, 92);
+ color: white;
+ 
+}
+
+.img-scale {
+  transition: transform .2s;
+}
+.img-scale:hover {
+  transform: scale(1.1);
+}
